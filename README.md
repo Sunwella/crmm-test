@@ -1,24 +1,22 @@
-# crmm-test
+# Тестовые задания ЦРММ
 
-## Project setup
+## Исходные данные
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+https://my-json-server.typicode.com/Vespand/crmm-tasks/users
 ```
 
-### Compiles and minifies for production
+### Figma
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+https://www.figma.com/file/OyD17M0M3njgbODT6UGcfE/crmm-front-tasks?node-id=0%3A1
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Задание
+```
+Сверстать по макету из фигмы рейтинговую таблицу (список).
+Список пользователей запрашивается с endpoint'a (ссылка ниже).
+При получении пользователей пользователи сразу сортируются по рейтингу.
+Аватарки топ-3 пользователей окрашиваются в соответствующие цвета.
+По кнопке в шапке сортировка меняется на убывание/возрастание по рейтингу.
+При нажатии на карточку пользователя появляется модальное окно с информацией о пользователе.
+```
+
